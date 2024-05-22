@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+    width: 980px;
+    height: 720px;
+    padding: 72px 0px 112px;
+}
+
+.title-pa {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 30%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+
+    margin: 0px 40px 0px 40px;
+    padding: 20px 0px 20px 0px;
+    width: 900px;
+    height: 496px;
+}
+
+.img-logo {
+    width: 321px;
+    height: 106px;
+    margin: -28px;
+}
+
+.form-main {
+    margin: 0px 500px;
+    display: fle x;
+    flex-direction: column;
+    background-color: #fff;
+    width: 396;
+    height: 456px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #ccc;
+}
+
+.email {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    background-color: #e8f0fe;
+    color: #000;
+    padding: 14px 16px;
+}
+
+.login {
+    background-color: rgb(24, 119, 242);
+    padding: 0px 16px;
+    border: 10px solid rgb(24, 119, 242);
+    border-radius: 3px;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 700px;
+    width: 364;
+    height: 48px;
+    text-align: center;
+    font-style: normal;
+    line-height: 48px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.enlace {
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 1px4;
+    color: #0866ff;
+    line-height: 19px;
+    margin: 20px;
+}
+
+.enlace:hover {
+    text-decoration: underline;
+}
+
+.cuenta {
+    background-color: rgb(54, 164, 32);
+    color: #fff;
+    border-radius: 10px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 700px;
+    line-height: 48px;
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.text-pa {
+    padding: 0px 0px 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 32px;
+    color: #1c1e21;
+    font-weight: 400px;
+    width: 500px;
+    height: 96px;
+}
